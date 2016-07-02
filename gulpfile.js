@@ -4,7 +4,6 @@ var gulp = require('gulp'),
     watch = require('gulp-watch'),
     plumber = require('gulp-plumber'),
     rename = require('gulp-rename'),
-    ftp = require( 'vinyl-ftp' ),
     gutil = require('gulp-util');
 
 gulp.task('sass', function () {
@@ -17,7 +16,7 @@ gulp.task('sass', function () {
 });
 
 gulp.task('watch', function () {
-  gulp.watch('/*', ['sass']);
+  gulp.watch('css/partials/*', ['sass']);
 });
 
 gulp.task('default', ['sass', 'watch']);

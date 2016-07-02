@@ -1,29 +1,24 @@
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
-
 html {
-    color: #222;
-    font-size: 1em;
-    line-height: 1.4;
-}
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4; }
 
 ::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
-}
+  background: #b3d4fc;
+  text-shadow: none; }
 
 ::selection {
-    background: #b3d4fc;
-    text-shadow: none;
-}
+  background: #b3d4fc;
+  text-shadow: none; }
 
 hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
-}
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0; }
 
 audio,
 canvas,
@@ -31,343 +26,340 @@ iframe,
 img,
 svg,
 video {
-    vertical-align: middle;
-}
+  vertical-align: middle; }
 
 fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
-}
+  border: 0;
+  margin: 0;
+  padding: 0; }
 
 textarea {
-    resize: vertical;
-}
+  resize: vertical; }
 
 .browserupgrade {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
-}
-
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0; }
 
 /* ===== Initializr Styles ==================================================
-   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
-   ========================================================================== */
-
+Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+========================================================================== */
 body {
-    font: 16px/26px Helvetica, Helvetica Neue, Arial;
-}
+  font: 16px/26px Helvetica, Helvetica Neue, Arial; }
 
 .wrapper {
-    width: 90%;
-    margin: 0 5%;
-}
+  width: 90%;
+  margin: 0 5%; }
 
 /* ===================
-    ALL: Orange Theme
-   =================== */
-
-.header-container {
-    border-bottom: 20px solid #e44d26;
+ALL: Orange Theme
+=================== */
+/*.header-container {
+  border-bottom: 20px solid #e44d26;
 }
 
 .footer-container,
 .main aside {
-    border-top: 20px solid #e44d26;
+  border-top: 20px solid #e44d26;
 }
 
 .header-container,
 .footer-container,
 .main aside {
-    background: #f16529;
+  background: #f16529;
 }
 
 .title {
-    color: white;
-}
-
+  color: white;
+}*/
 /* ==============
-    MOBILE: Menu
-   ============== */
-
+MOBILE: Menu
+============== */
 nav ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-}
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
 
 nav a {
-    display: block;
-    margin-bottom: 10px;
-    padding: 15px 0;
-
-    text-align: center;
-    text-decoration: none;
-    font-weight: bold;
-
-    color: white;
-    background: #e44d26;
-}
+  display: block;
+  margin-bottom: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: white; }
 
 nav a:hover,
 nav a:visited {
-    color: white;
-}
+  color: white; }
 
 nav a:hover {
-    text-decoration: underline;
-}
+  text-decoration: underline; }
 
 /* ==============
-    MOBILE: Main
-   ============== */
-
+MOBILE: Main
+============== */
 .main {
-    padding: 30px 0;
-}
+  padding: 30px 0; }
 
 .main article h1 {
-    font-size: 2em;
-}
+  font-size: 2em; }
 
 .main aside {
-    color: white;
-    padding: 0px 5% 10px;
-}
+  color: white;
+  padding: 0px 5% 10px; }
 
 .footer-container footer {
-    color: white;
-    padding: 20px 0;
-}
+  color: white;
+  padding: 20px 0; }
 
 /* ===============
-    ALL: IE Fixes
-   =============== */
-
+ALL: IE Fixes
+=============== */
 .ie7 .title {
-    padding-top: 20px;
-}
+  padding-top: 20px; }
 
 /* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+Author's custom styles
+========================================================================== */
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300; }
 
+/* ===================
+ALL: Greene Theme
+=================== */
+.header-container {
+  border: 0; }
 
+.footer-container,
+.main aside {
+  border-top: 20px solid #90C3D4; }
 
+.header-container,
+.footer-container,
+.main aside {
+  background: #90C3D4; }
 
+.title {
+  color: white; }
 
+/* =================== */
+h1.title {
+  font-family: 'Oleo Script Swash Caps', cursive;
+  text-align: center;
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 1;
+  margin: 30px 0; }
+  h1.title span {
+    font-size: 50px; }
 
+nav {
+  display: none;
+  font-weight: 100;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-top: 10px; }
+  nav a {
+    margin-left: 30px; }
+  nav i {
+    margin-right: 5px; }
+  @media only screen and (min-width: 768px) {
+    nav {
+      display: block; } }
 
+.flower {
+  width: 48%;
+  float: left;
+  margin: 1%;
+  margin-bottom: 30px;
+  position: relative;
+  background: #f0f0f0; }
+  .flower img {
+    max-width: 100%; }
+  .flower p {
+    font-size: 14px;
+    line-height: 1.2;
+    padding: 3px 8px; }
+  .flower .price {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 3px 5px;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff; }
+  .flower button {
+    border: 0;
+    background: #90C3D4;
+    width: 100%;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px; }
+    .flower button:hover {
+      background: #6bafc6; }
+  @media only screen and (min-width: 480px) {
+    .flower {
+      width: 31%; } }
+  @media only screen and (min-width: 768px) {
+    .flower {
+      width: 23%; } }
 
+.cart-container {
+  background-color: #6bafc6;
+  height: 40px;
+  line-height: 40px;
+  color: #fff; }
+  .cart-container span {
+    float: right; }
 
-
-
-
-
-
+.menu ul {
+  margin: 0;
+  padding: 0; }
+  .menu ul li {
+    list-style-type: none;
+    float: left;
+    margin-right: 50px; }
 
 /* ==========================================================================
-   Media Queries
-   ========================================================================== */
-
+Media Queries
+========================================================================== */
 @media only screen and (min-width: 480px) {
-
-/* ====================
-    INTERMEDIATE: Menu
-   ==================== */
-
-    nav a {
-        float: left;
-        width: 27%;
-        margin: 0 1.7%;
-        padding: 25px 2%;
-        margin-bottom: 0;
-    }
-
-    nav li:first-child a {
-        margin-left: 0;
-    }
-
-    nav li:last-child a {
-        margin-right: 0;
-    }
-
-/* ========================
-    INTERMEDIATE: IE Fixes
-   ======================== */
-
-    nav ul li {
-        display: inline;
-    }
-
-    .oldie nav a {
-        margin: 0 0.7%;
-    }
-}
+  /* ====================
+  INTERMEDIATE: Menu
+  ==================== */
+  nav a {
+    float: left;
+    margin-bottom: 0; }
+  nav li:first-child a {
+    margin-left: 0; }
+  nav li:last-child a {
+    margin-right: 0; }
+  /* ========================
+  INTERMEDIATE: IE Fixes
+  ======================== */
+  nav ul li {
+    display: inline; }
+  .oldie nav a {
+    margin: 0 0.7%; } }
 
 @media only screen and (min-width: 768px) {
-
-/* ====================
-    WIDE: CSS3 Effects
-   ==================== */
-
-    .header-container,
-    .main aside {
-        -webkit-box-shadow: 0 5px 10px #aaa;
-           -moz-box-shadow: 0 5px 10px #aaa;
-                box-shadow: 0 5px 10px #aaa;
-    }
-
-/* ============
-    WIDE: Menu
-   ============ */
-
-    .title {
-        float: left;
-    }
-
-    nav {
-        float: right;
-        width: 38%;
-    }
-
-/* ============
-    WIDE: Main
-   ============ */
-
-    .main article {
-        float: left;
-        width: 57%;
-    }
-
-    .main aside {
-        float: right;
-        width: 28%;
-    }
+  /* ====================
+  WIDE: CSS3 Effects
+  ==================== */
+  /*.header-container,
+  .main aside {
+  -webkit-box-shadow: 0 5px 10px #aaa;
+  -moz-box-shadow: 0 5px 10px #aaa;
+  box-shadow: 0 5px 10px #aaa;
+}*/
+  /* ============
+  WIDE: Menu
+  ============ */
+  .title {
+    float: left; }
+  nav {
+    float: right; }
+  /* ============
+  WIDE: Main
+  ============ */
+  /*.main article {
+  float: left;
+  width: 57%;
 }
+
+  .main aside {
+  float: right;
+  width: 28%;
+}*/ }
 
 @media only screen and (min-width: 1140px) {
-
-/* ===============
-    Maximal Width
-   =============== */
-
-    .wrapper {
-        width: 1026px; /* 1140px - 10% for margins */
-        margin: 0 auto;
-    }
-}
+  /* ===============
+  Maximal Width
+  =============== */
+  .wrapper {
+    width: 1026px;
+    /* 1140px - 10% for margins */
+    margin: 0 auto; } }
 
 /* ==========================================================================
-   Helper classes
-   ========================================================================== */
-
+Helper classes
+========================================================================== */
 .hidden {
-    display: none !important;
-    visibility: hidden;
-}
+  display: none !important;
+  visibility: hidden; }
 
 .visuallyhidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
-}
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; }
 
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
-    clip: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    width: auto;
-}
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto; }
 
 .invisible {
-    visibility: hidden;
-}
+  visibility: hidden; }
 
-.clearfix:before,
-.clearfix:after {
-    content: " ";
-    display: table;
-}
+.clearfix:before, .main .article:before, .cart-container:before,
+.clearfix:after,
+.main .article:after,
+.cart-container:after {
+  content: " ";
+  display: table; }
 
-.clearfix:after {
-    clear: both;
-}
+.clearfix:after, .main .article:after, .cart-container:after {
+  clear: both; }
 
-.clearfix {
-    *zoom: 1;
-}
+.clearfix, .main .article, .cart-container {
+  *zoom: 1; }
 
 /* ==========================================================================
-   Print styles
-   ========================================================================== */
-
+Print styles
+========================================================================== */
 @media print {
-    *,
-    *:before,
-    *:after {
-        background: transparent !important;
-        color: #000 !important;
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
-
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
-
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
-
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
-
-    a[href^="#"]:after,
-    a[href^="javascript:"]:after {
-        content: "";
-    }
-
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
-
-    thead {
-        display: table-header-group;
-    }
-
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
-
-    img {
-        max-width: 100% !important;
-    }
-
-    p,
-    h2,
-    h3 {
-        orphans: 3;
-        widows: 3;
-    }
-
-    h2,
-    h3 {
-        page-break-after: avoid;
-    }
-}
+  *,
+  *:before,
+  *:after {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important; }
+  a,
+  a:visited {
+    text-decoration: underline; }
+  a[href]:after {
+    content: " (" attr(href) ")"; }
+  abbr[title]:after {
+    content: " (" attr(title) ")"; }
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: ""; }
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid; }
+  thead {
+    display: table-header-group; }
+  tr,
+  img {
+    page-break-inside: avoid; }
+  img {
+    max-width: 100% !important; }
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3; }
+  h2,
+  h3 {
+    page-break-after: avoid; } }
