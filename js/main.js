@@ -1,17 +1,19 @@
 
 $().ready(function(){
   $("button").click(function(){
-    if (sessionStorage.clickcount) {
-      sessionStorage.clickcount=Number(sessionStorage.clickcount)+1;
+    if (localStorage.clickcount) {
+      localStorage.clickcount=Number(localStorage.clickcount)+1;
     }
     else{
-      sessionStorage.clickcount=1;
+      localStorage.clickcount=1;
     }
-    document.getElementById("result").innerHTML="You have " + sessionStorage.clickcount + " items in your cart.";
+    document.getElementById("result").innerHTML= "<span class='count'>" + localStorage.clickcount + "</span>" ;
+    document.getElementById("clear").innerHTML= "Clear Cart" ;
   })
 });
 
-$(".clear").click(function(){
-  session.Storage.clear();
-  document.getElementById("clear").innerHTML;
+$("#clear").click(function(){
+  localStorage.clear();
+  document.getElementById("clear").innerHTML= "";
+  document.getElementById("result").innerHTML="";
 });

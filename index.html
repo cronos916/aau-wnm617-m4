@@ -17,13 +17,11 @@
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
         <link href='https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps' rel='stylesheet' type='text/css'>
         <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-
     </head>
     <body>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-
         <div class="header-container">
             <header class="wrapper clearfix">
               <h1 class="title"><span>Fleurs</span><br>de Merde</h1>
@@ -48,11 +46,14 @@
               <li>Same Day</li>
             </ul>
           </div>
-           <i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i><span id="result"></span><a href="" class="clear">Clear</a>
+          <span class="cart">
+            <i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i><span id="result"></span><span id="clear"></span>
+          </span>
         </div>
       </div>
         <div class="main-container">
             <div class="main wrapper clearfix">
+               <!-- images provided by proflowers.com -->
                 <article>
                   <div class="flower">
                     <img src="img/flowers1.jpeg" alt="">
@@ -67,25 +68,19 @@
                     <button>Add to cart</button>
                   </div>
                   <div class="flower">
-                    <img src="img/flowers1.jpeg" alt="">
+                    <img src="img/flowers3.jpeg" alt="">
                     <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <span class="price">$39.99</span>
                     <button>Add to cart</button>
                   </div>
                   <div class="flower">
-                    <img src="img/flowers2.jpeg" alt="">
+                    <img src="img/flowers4.jpeg" alt="">
                     <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <span class="price">$39.99</span>
                     <button>Add to cart</button>
                   </div>
                   <div class="flower">
-                    <img src="img/flowers1.jpeg" alt="">
-                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <span class="price">$39.99</span>
-                    <button>Add to cart</button>
-                  </div>
-                  <div class="flower">
-                    <img src="img/flowers2.jpeg" alt="">
+                    <img src="img/flowers5.jpeg" alt="">
                     <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <span class="price">$39.99</span>
                     <button>Add to cart</button>
@@ -103,25 +98,19 @@
                     <button>Add to cart</button>
                   </div>
                   <div class="flower">
-                    <img src="img/flowers1.jpeg" alt="">
+                    <img src="img/flowers3.jpeg" alt="">
                     <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <span class="price">$39.99</span>
                     <button>Add to cart</button>
                   </div>
                   <div class="flower">
-                    <img src="img/flowers2.jpeg" alt="">
+                    <img src="img/flowers4.jpeg" alt="">
                     <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <span class="price">$39.99</span>
                     <button>Add to cart</button>
                   </div>
                   <div class="flower">
-                    <img src="img/flowers1.jpeg" alt="">
-                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <span class="price">$39.99</span>
-                    <button>Add to cart</button>
-                  </div>
-                  <div class="flower">
-                    <img src="img/flowers2.jpeg" alt="">
+                    <img src="img/flowers5.jpeg" alt="">
                     <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <span class="price">$39.99</span>
                     <button>Add to cart</button>
@@ -139,6 +128,24 @@
                     <button>Add to cart</button>
                   </div>
                   <div class="flower">
+                    <img src="img/flowers3.jpeg" alt="">
+                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <span class="price">$39.99</span>
+                    <button>Add to cart</button>
+                  </div>
+                  <div class="flower">
+                    <img src="img/flowers4.jpeg" alt="">
+                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <span class="price">$39.99</span>
+                    <button>Add to cart</button>
+                  </div>
+                  <div class="flower">
+                    <img src="img/flowers5.jpeg" alt="">
+                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <span class="price">$39.99</span>
+                    <button>Add to cart</button>
+                  </div>
+                  <div class="flower">
                     <img src="img/flowers1.jpeg" alt="">
                     <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <span class="price">$39.99</span>
@@ -150,21 +157,33 @@
                     <span class="price">$39.99</span>
                     <button>Add to cart</button>
                   </div>
-
-
-
-
-
+                  <div class="flower">
+                    <img src="img/flowers3.jpeg" alt="">
+                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <span class="price">$39.99</span>
+                    <button>Add to cart</button>
+                  </div>
+                  <div class="flower">
+                    <img src="img/flowers4.jpeg" alt="">
+                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <span class="price">$39.99</span>
+                    <button>Add to cart</button>
+                  </div>
+                  <div class="flower">
+                    <img src="img/flowers5.jpeg" alt="">
+                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <span class="price">$39.99</span>
+                    <button>Add to cart</button>
+                  </div>
                 </article>
             </div> <!-- #main -->
         </div> <!-- #main-container -->
-
         <div class="footer-container">
             <footer class="wrapper">
-                <h3>footer</h3>
+              <h3>Fleurs de Merde</h3>
+              <p>Academic Project - Images provided by proflowers.com</p>
             </footer>
         </div>
-
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
